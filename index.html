@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table{
+            text-align: center;
+            border-collapse:collapse;
+            border:1px solid black;
+        }
+        td{
+            border:1px solid black;
+        }
+        th{
+            border:1px solid black;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    <div>
+    <span>廠牌</span>
+    <select name = "brand" id="brand">
+        <option value=-1>請選擇要查詢的廠牌</option>
+        <option value=0>AUDI</option>
+    </select>
+    <br>
+    <br>
+    <span>車型</span>
+    <select name = "carType" id="carType">
+        <option value="">請先選擇廠牌</option>
+    </select>
+    <br>
+    <br>
+    <span>排量</span>
+    <select name = "displacement" id="displacement">
+        <option value="">請先選擇廠牌</option>
+    </select>
+    <br>
+    <br>
+    <span>適用年份</span>
+    <select name = "year" id="year">
+        <option value="">請先選擇廠牌</option>
+    </select>
+    </div>
+    <br>
+    <br>
+    <table id = "oil"></table>
+    <br>
+    <br>
+    <table id = "data"></table>
+    
+    <script src="a.js" charset="UTF-8"></script>
+
+</body>
+</html>
