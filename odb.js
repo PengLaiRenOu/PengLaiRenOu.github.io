@@ -1,5 +1,5 @@
 function search(){
-    strtmp = "P" + document.getElementById('search').value;
+    strtmp = "P" + document.getElementById('search').value.toUpperCase();
     console.log(strtmp);
     check = -1;
     for (let i = 0 ; i < data.length ; i = i + 1){
