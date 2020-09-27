@@ -12,6 +12,8 @@ function onsta() {
     for (let i = 0; i < brands.length ; i++){
         brandTmp.innerHTML +=`<option value ="${brands[i]}">${brands[i]}</option>`;
     }
+    document.getElementById('durango').width = document.body.clientWidth * 0.7;
+    
 }
 onsta();
 function selectedBrand(index) {
@@ -55,8 +57,8 @@ function selectedCarType(index) {
         document.getElementById('year').innerHTML = `<option value="">請先選擇車型</option>`;
         index = -1;
     }
-    document.getElementById('oil').innerHTML = ""
-    document.getElementById('data').innerHTML = ""
+    document.getElementById('oil').innerHTML = "";
+    document.getElementById('data').innerHTML = "";
 } 
 
 function selectedDisplacement(index) {
