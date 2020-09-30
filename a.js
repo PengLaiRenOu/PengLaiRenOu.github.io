@@ -14,6 +14,7 @@ function onsta() {
         brandTmp.innerHTML +=`<option value ="${brands[i]}">${brands[i]}</option>`;
     }
     document.getElementById('durango').width = document.body.clientWidth * 0.7;
+    document.getElementById('GifOil').width = document.body.clientHeight * 0.3;
     
 }
 onsta();
